@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+    background: #1B244A;
+}
+
+#board-title-home {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 50px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+#home-score {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 60px;
+}
+
+#home-score-background {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#home-points-text {
+width: 117px;
+height: 120px;
+padding-left: 18px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 141%;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+}
+
+#add-pnt-btn-home {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    top: 230px;
+    left: 5px;
+}
+
+#add-one-point {
+width: 45px;
+height: 45px;
+position: absolute;
+}
+
+#add-one-point button {
+    position: absolute;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+
+#add-two-point {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 50px;
+}
+
+#add-two-point button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#add-three-point {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 100px;
+}
+
+#add-three-point button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+/* GUEST SCORE */
+
+#board-title-guest {
+    position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 50px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+#guest-score {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 60px;
+}
+
+#guest-score-background {
+    width: 155px;
+    height: 120px;
+    top: 22px;
+    
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#guest-points-text {
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+    padding-left: 18px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#add-pnt-btn-guest {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    top: 230px;
+    left: 5px;
+}
+
+#adds-one-point {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+#adds-one-point button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    background-color: #1B244A;
+
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#adds-two-point {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 50px;
+}
+
+#adds-two-point button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#adds-three-point {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 100px;
+}
+
+#adds-three-point button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
